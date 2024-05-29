@@ -1,0 +1,19 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 10), rgba(13, 39, 46, 0.1)), url('/assets/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif');
+ 
+}
+.main-title{
+  font-size: 25px;
+  /* gradient color to font */
+  background: linear-gradient(90deg, #ff0000, #ff7300, #fffb00, #bbbbbb, #22312f, #02e0e0, #7a00ff, #ff00e7, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  text-align: center;
+  font-family: 'Gorditas', sans-serif;
+  font-weight: 700;
+}

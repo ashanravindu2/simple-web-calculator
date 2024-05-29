@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.calculator {
+  width: 350px;
+  height: 570px;
+  background: linear-gradient(rgb(5, 26, 66, 4), rgba(0, 0, 0, 0.4));
+  margin: 0 auto;
+  top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgba(236, 236, 236, 0.226), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #ffffff;
+}
+#output {
+  text-align: right;
+  height: 45px;
+  margin: 10px 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.keyboard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.operator,
+.number,
+.symbole {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 50%;
+  border-width: 0;
+  font-size: 25px;
+  cursor: pointer;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.number,
+.symbole {
+  color: rgb(255, 255, 255);
+  background-color: #2d3436;
+}
+
+.operator {
+  color: rgb(0, 27, 58);
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.operator:active {
+  font-size: 20px;
+  opacity: 100%;
+  border: 2px solid #ffffff;
+  background-color: #ff9100;
+}
+
+.number:active,
+.symbole:active {
+  font-size: 20px;
+  opacity: 70%;
+ border: 2px solid #ffffff; 
+ background-color: #000000;
+}
+.operator:focus,
+.number:focus,
+.symbole:focus {
+  outline: 0;
+}
