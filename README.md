@@ -6,5 +6,5 @@
 )
 
 #### Mobile PREVIEW
-![Alt text](assets\view\mobile.jpeg)
+![Alt text](assets/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif)
 
